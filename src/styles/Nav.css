@@ -1,0 +1,23 @@
+.Nav {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.Nav ul {
+  list-style-type: none;
+}
+
+.Nav li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: black;
+}
