@@ -13,6 +13,7 @@ import '../layout/_global.css';
 // pages
 import Home from '../routes/Home';
 import About from '../routes/About';
+import Join from '../routes/Join';
 
 const routes = [
   {
@@ -38,7 +39,7 @@ const routes = [
   },
   {
     pathj: "/join",
-    sidebar: () => <div>join</div>
+    sidebar: () => <div className="Content"><Join/></div>
   }
 ];
 
