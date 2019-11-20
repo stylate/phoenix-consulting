@@ -8,6 +8,7 @@ import {
 
 import logo from '../assets/phoenixlogo.png';
 import '../layout/Nav.css';
+import '../layout/_global.css';
 
 // pages
 import Home from '../routes/Home';
@@ -21,7 +22,7 @@ const routes = [
   },
   {
     path: "/about",
-    sidebar: () => <About/>
+    sidebar: () => <div className="Content"><About/></div>
   },
   {
     path: "/services",
