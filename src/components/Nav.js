@@ -11,16 +11,17 @@ import '../layout/Nav.css';
 
 // pages
 import Home from '../routes/Home';
+import About from '../routes/About';
 
 const routes = [
   {
     path: "/",
     exact: true,
-    sidebar: () => <Home />
+    sidebar: () => <Home/>
   },
   {
     path: "/about",
-    sidebar: () => <div>about</div>
+    sidebar: () => <About/>
   },
   {
     path: "/services",
