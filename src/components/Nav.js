@@ -60,7 +60,7 @@ function Nav() {
                         <Link to="/team">team</Link>
                     </li>
                     <li>
-                        <Link to="/articles">articles</Link>
+                        <a href="https://medium.com/@phoenixconsulting">articles</a>
                     </li>
                     <li>
                         <Link to="/join">join</Link>
