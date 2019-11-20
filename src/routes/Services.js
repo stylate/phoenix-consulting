@@ -49,6 +49,8 @@ class Services extends React.Component {
       const industryButtons = ["Biotech", "Healthcare", "Biomedical"];
       const businessButtons = ["Market Research", "Sales & Marketing", "Operations", "Product Research", "Business Model", "Finance"];
 
+      const buttonStyle = {'background-color': '#810606', 'color': 'white', 'border': '1px solid #810606'};
+
       return (
         <div className="Services-body">
           <ol>
@@ -60,7 +62,8 @@ class Services extends React.Component {
                     <button
                       key={name}
                       onClick={() => this.setState({industry: index + 1})}
-                      className={this.state.industry === (index + 1) ? 'active' : ''}>
+                      style={this.state.industry === (index + 1) ? buttonStyle : null}
+                    >
                       {name}
                     </button>
                   );
@@ -75,7 +78,8 @@ class Services extends React.Component {
                     <button
                       key={name}
                       onClick={() => this.setState({businessNeed: index + 1})}
-                      className={this.state.businessNeed === (index + 1) ? 'active' : ''}>
+                      style={this.state.businessNeed === (index + 1) ? buttonStyle : null}
+                    >
                       {name}
                     </button>
                   );

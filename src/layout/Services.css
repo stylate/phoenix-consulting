@@ -1,7 +1,7 @@
 .Services {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 20px;
-	/*padding: 5%;*/
+	padding: 5%;
 }
 
 .Services-title {
@@ -51,6 +51,12 @@
   border: 1px solid #810606;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.Services-buttongroup .active button {
+	background-color: #810606;
+  color: white;
+  border: 1px solid #810606;
 }
 
 .Services-actionbutton {
@@ -111,10 +117,4 @@ button:hover {
 	font-family: 'PT Serif', serif;
 	font-size: 24px;
 	font-weight: 700;
-}
-
-.active {
-	background-color: #810606;
-  color: white;
-  border: 1px solid #810606;
 }
