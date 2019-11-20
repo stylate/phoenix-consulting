@@ -11,6 +11,7 @@ import '../layout/Nav.css';
 
 // pages
 import Home from '../routes/Home';
+import Services from '../routes/Services';
 
 const routes = [
   {
@@ -24,7 +25,7 @@ const routes = [
   },
   {
     path: "/services",
-    sidebar: () => <div>services</div>
+    sidebar: () => <Services />
   },
   {
     path: "/team",

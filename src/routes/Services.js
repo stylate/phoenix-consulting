@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import '../layout/Services.css';
 
 class Services extends React.Component {
   constructor(props) {
@@ -45,26 +45,41 @@ class Services extends React.Component {
 
   getBody() {
     if (this.state.askingQuestions) {
+      // modify these lists to change/add/remove buttons
+      const industryButtons = ["Biotech", "Healthcare", "Biomedical"];
+      const businessButtons = ["Market Research", "Sales & Marketing", "Operations", "Product Research", "Business Model", "Finance"];
+
       return (
         <div className="Services-body">
           <ol>
             <li>
               What is your industry?
               <div className="Services-buttongroup">
-                <button onClick={() => this.setState({industry: 1})}>Biotech</button>
-                <button onClick={() => this.setState({industry: 2})}>Healthcare</button>
-                <button onClick={() => this.setState({industry: 3})}>Biomedical</button>
+                {industryButtons.map((name, index) => {
+                  return (
+                    <button
+                      key={name}
+                      onClick={() => this.setState({industry: index + 1})}
+                      className={this.state.industry === (index + 1) ? 'active' : ''}>
+                      {name}
+                    </button>
+                  );
+                })}
               </div>
             </li>
             <li>
               What is your business need?
               <div className="Services-buttongroup">
-                <button onClick={() => this.setState({businessNeed: 1})}>Market Research</button>
-                <button onClick={() => this.setState({businessNeed: 2})}>Sales & Marketing</button>
-                <button onClick={() => this.setState({businessNeed: 3})}>Operations</button>
-                <button onClick={() => this.setState({businessNeed: 4})}>Product Research</button>
-                <button onClick={() => this.setState({businessNeed: 5})}>Business Model</button>
-                <button onClick={() => this.setState({businessNeed: 6})}>Finance</button>
+                {businessButtons.map((name, index) => {
+                  return (
+                    <button
+                      key={name}
+                      onClick={() => this.setState({businessNeed: index + 1})}
+                      className={this.state.businessNeed === (index + 1) ? 'active' : ''}>
+                      {name}
+                    </button>
+                  );
+                })}
               </div>
             </li>
           </ol>
@@ -74,26 +89,24 @@ class Services extends React.Component {
         </div>
       );
     } else {
+      const solutions = ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum"];
+
       return (
         <div className="Services-body">
           <div className="Services-resulttitle">
             You selected {this.getIndustryText()} as your industry and {this.getBusinessNeedText()} as your business need.
           </div>
           <div className="Services-solutiongroup">
-            <div className="Services-solution">
-              <div className="Services-solutiontitle">Solution 1</div>
-              Lorem ipsum
-            </div>
-            <div className="Services-solution">
-              <div className="Services-solutiontitle">Solution 2</div>
-              Lorem ipsum
-            </div>
-            <div className="Services-solution">
-              <div className="Services-solutiontitle">Solution 3</div>
-              Lorem ipsum
-            </div>
+            {solutions.map((value, index) => {
+              return (
+                <div className="Services-solution" key={index}>
+                  <div className="Services-solutiontitle">Solution {index + 1}</div>
+                  {value}
+                </div>
+              );
+            })}
           </div>
-          <button className="Services-actionbutton" onClick={() => this.setState({askingQuestions: true})}>
+          <button className="Services-actionbutton2" onClick={() => this.setState({askingQuestions: true})}>
             Go back
           </button>
         </div>
