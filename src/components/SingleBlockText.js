@@ -1,6 +1,6 @@
 import React from 'react';
-import '../layout/SingleBlockText.css';
 import classNames from 'classnames';
+import '../layout/SingleBlockText.css';
 
 const SingleBlockText = (props) => {
   return (
