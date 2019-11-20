@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.Join__margin {
+  margin-left: 4%;
+}
+
 .Join__key {
   display: flex;
   flex-direction: row;
@@ -11,8 +15,8 @@
 }
 
 .Join__key__square {
-  width: 36px;
-  height: 36px;
+  width: 25px;
+  height: 25px;
   background: #810606;
   border-radius: 4px;
 }
