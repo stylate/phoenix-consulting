@@ -12,6 +12,7 @@ import '../layout/_global.css';
 
 // pages
 import Home from '../routes/Home';
+import Services from '../routes/Services';
 import About from '../routes/About';
 import Join from '../routes/Join';
 
@@ -27,7 +28,7 @@ const routes = [
   },
   {
     path: "/services",
-    sidebar: () => <div>services</div>
+    sidebar: () => <div className="Content"><Services /></div>
   },
   {
     path: "/team",
