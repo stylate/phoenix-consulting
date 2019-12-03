@@ -18,6 +18,7 @@ const About = () => (
                 {"header": "my header", "body": "my body"},
             ]}
         />
+        <br/><br/><br/>
         <header>SPONSORS</header>
         <BlockTexts
             className="mt"
