@@ -18,5 +18,12 @@
 .BlockTexts__block {
   margin-left: 5%;
   margin-top: 16px;
-  width: 80%;
+  width: 90%;
+  transition: 0.5s;
+}
+
+.BlockTexts__block:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
 }
