@@ -33,7 +33,7 @@ const routes = [
   },
   {
     path: "/team",
-    sidebar: () => <Team/>
+    sidebar: () => <div className="Content"><Team/></div>
   },
   {
     path: "/articles",
