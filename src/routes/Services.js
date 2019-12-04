@@ -43,6 +43,68 @@ class Services extends React.Component {
     }
   }
 
+  // returns an array of length 3 of solutions
+  getSolutionsText() {
+    switch(this.state.industry) {
+      case 1: // biotech
+        switch(this.state.businessNeed) {
+          case 1: // market research
+            return ["", "", ""];
+          case 2: // sales and marketing
+            return ["", "", ""];
+          case 3: // operations
+            return ["", "", ""];
+          case 4: // product research
+            return ["", "", ""];
+          case 5: // business model
+            return ["", "", ""];
+          case 6: // finance
+            return ["", "", ""];
+          default:
+            return ["", "", ""];
+        }
+        break;
+      case 2: // healthcare
+        switch(this.state.businessNeed) {
+          case 1: // market research
+            return ["", "", ""];
+          case 2: // sales and marketing
+            return ["", "", ""];
+          case 3: // operations
+            return ["", "", ""];
+          case 4: // product research
+            return ["", "", ""];
+          case 5: // business model
+            return ["", "", ""];
+          case 6: // finance
+            return ["", "", ""];
+          default:
+            return ["", "", ""];
+        }
+        break;
+      case 3: // biomedical
+        switch(this.state.businessNeed) {
+          case 1: // market research
+            return ["", "", ""];
+          case 2: // sales and marketing
+            return ["", "", ""];
+          case 3: // operations
+            return ["", "", ""];
+          case 4: // product research
+            return ["", "", ""];
+          case 5: // business model
+            return ["", "", ""];
+          case 6: // finance
+            return ["", "", ""];
+          default:
+            return ["", "", ""];
+        }
+        break;
+      default:
+        return ["", "", ""];
+    }
+  }
+
   getBody() {
     if (this.state.askingQuestions) {
       // modify these lists to change/add/remove buttons
@@ -93,7 +155,7 @@ class Services extends React.Component {
         </div>
       );
     } else {
-      const solutions = ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum"];
+      const solutions = this.getSolutionsText();
 
       return (
         <div className="Services-body">
