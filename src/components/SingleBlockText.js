@@ -4,6 +4,7 @@ import '../layout/SingleBlockText.css';
 
 const SingleBlockText = (props) => {
   const { header, body, image } = props;
+  console.log("image: ", image);
   return (
     <div className={classNames(props.className, "SingleBlockText")}>
       <div className="SingleBlockText__header">{header}</div>
@@ -14,7 +15,7 @@ const SingleBlockText = (props) => {
                 return <p>{paragraph}</p>
               })}
             </div>
-            <img className="SingleBlockText__image" src={image[Object.keys(image)[0]]} alt="image" />
+            <img className="SingleBlockText__image" src={image[Object.keys(image)[0]]} />
           </div>
         : <div className="SingleBlockText__body">
             {body.map((paragraph) => {
