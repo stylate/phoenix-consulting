@@ -9,23 +9,27 @@ import {
 import logo from '../assets/phoenixlogo.png';
 import '../layout/Nav.css';
 import Team from '../routes/team/Team.js';
+import '../layout/_global.css';
 
 // pages
 import Home from '../routes/Home';
+import Services from '../routes/Services';
+import About from '../routes/About';
+import Join from '../routes/Join';
 
 const routes = [
   {
     path: "/",
     exact: true,
-    sidebar: () => <Home />
+    sidebar: () => <Home/>
   },
   {
     path: "/about",
-    sidebar: () => <div>about</div>
+    sidebar: () => <div className="Content"><About/></div>
   },
   {
     path: "/services",
-    sidebar: () => <div>services</div>
+    sidebar: () => <div className="Content"><Services /></div>
   },
   {
     path: "/team",
@@ -36,8 +40,8 @@ const routes = [
     sidebar: () => <div>articles</div>
   },
   {
-    path: "/join",
-    sidebar: () => <div>join</div>
+    pathj: "/join",
+    sidebar: () => <div className="Content"><Join/></div>
   }
 ];
 
@@ -61,7 +65,7 @@ function Nav() {
                         <Link to="/team">team</Link>
                     </li>
                     <li>
-                        <Link to="/articles">articles</Link>
+                        <a href="https://medium.com/@phoenixconsulting">articles</a>
                     </li>
                     <li>
                         <Link to="/join">join</Link>

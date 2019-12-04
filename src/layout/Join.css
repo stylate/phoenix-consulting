@@ -1,0 +1,35 @@
+.Join {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Join__margin {
+  margin-left: 4%;
+}
+
+.Join__key {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Join__key__square {
+  width: 25px;
+  height: 25px;
+  background: #810606;
+  border-radius: 4px;
+}
+
+.Join__key__text {
+  margin-left: 12px;
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.Join__recruitment {
+  width: 100%;
+}
