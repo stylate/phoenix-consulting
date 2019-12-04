@@ -5,6 +5,7 @@ import SingleBlockText from './SingleBlockText';
 
 const BlockTexts = (props) => {
   const { texts } = props;
+  console.log("texts: ", texts)
   return (
     <div className={classNames(props.className, "BlockTexts")}>
       <div className="BlockTexts__background"/>
@@ -13,7 +14,7 @@ const BlockTexts = (props) => {
           className="BlockTexts__block"
           header={text.header}
           body={text.body}
-          images={text.images}
+          image={text.image}
         />
       ))}
     </div>
