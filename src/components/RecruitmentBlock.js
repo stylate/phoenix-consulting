@@ -14,11 +14,20 @@ const RecruitmentBlock = (props) => {
       <div className="RecruitmentBlock__title">{props.title}</div>
       <div className="RecruitmentBlock__date">
         {props.date}
-        <span className="RecruitmentBlock__normal"> at </span>
-        {props.time}
+        {props.time &&
+          <>
+            <span className="RecruitmentBlock__normal"> at </span>
+            {props.time}
+          </>
+        }
+
       </div>
       <div className="RecruitmentBlock__location">
-        {props.dress} &#183; {props.location}
+        {props.dress &&
+          <>{props.dress}</>
+        }
+        {props.dress && props.location && <>&#183;</>}
+        {props.location}
       </div>
     </div>
   );

@@ -7,6 +7,16 @@
   padding: 16px;
 }
 
+.SingleBlockText__container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.SingleBlockText__image {
+  width: 30%;
+}
+
 .SingleBlockText__header {
   font-family: 'PT Serif', serif;
   font-style: normal;
@@ -19,8 +29,12 @@
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 150%;
   color: #000000;
   margin-top: 10px;
+}
+
+.SingleBlockText__body-mr {
+  margin-right: 10px;
 }
