@@ -8,6 +8,7 @@ import {
 
 import logo from '../assets/phoenixlogo.png';
 import '../layout/Nav.css';
+import Team from '../routes/team/Team.js';
 
 // pages
 import Home from '../routes/Home';
@@ -28,14 +29,14 @@ const routes = [
   },
   {
     path: "/team",
-    sidebar: () => <div>team</div>
+    sidebar: () => <Team/>
   },
   {
     path: "/articles",
     sidebar: () => <div>articles</div>
   },
   {
-    pathj: "/join",
+    path: "/join",
     sidebar: () => <div>join</div>
   }
 ];
