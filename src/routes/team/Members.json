@@ -6,7 +6,7 @@
     "email": "salunkesonia@berkeley.edu",
     "major": "Business Administration (Global Health Minor)",
     "linkedin": "https://www.linkedin.com/in/sonia-salunke/",
-    "imgPath": "../../assets/headshots/sonia-salunke.jpg"
+    "imgPath": "sonia-salunke.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "email": "samarthv@berkeley.edu",
     "major": "Computer Science & Comparative History",
     "linkedin": "https://www.linkedin.com/in/samarth-venkatasubramaniam-4169a49a/",
-    "imgPath": "../../assets/headshots/samarth-v.jpg"
+    "imgPath": "samarth-v.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "email": "kaylaxchang@berkeley.edu",
     "major": "Business Administration & Mathematics",
     "linkedin": "https://www.linkedin.com/in/kayla-chang-155086148/",
-    "imgPath": "../../assets/headshots/kayla-chang.jpg"
+    "imgPath": "kayla-chang.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "email": "brandon.zhang@berkeley.edu",
     "major": "Bioengineering",
     "linkedin": "https://www.linkedin.com/in/brandon-z-964aa4100/",
-    "imgPath": "../../assets/headshots/brandon-zhang.jpg"
+    "imgPath": "brandon-zhang.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "email": "alyssabirchfield@berkeley.edu",
     "major": "Economics & Public Health",
     "linkedin": "https://www.linkedin.com/in/alyssa-birchfield-55886815a/",
-    "imgPath": "../../assets/headshots/alyssa-birchfield.jpg"
+    "imgPath": "alyssa-birchfield.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "email": "jordanbyck@berkeley.edu",
     "major": "CS + MCB",
     "linkedin": "https://www.linkedin.com/in/jordanbyck",
-    "imgPath": "../../assets/headshots/jordan-byck.jpg"
+    "imgPath": "jordan-byck.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "email": "harrisenmin@berkeley.edu",
     "major": "Public Health & Business Administration",
     "linkedin": "https://www.linkedin.com/in/harrisen-min/",
-    "imgPath": "../../assets/headshots/harrisen-min.jpg"
+    "imgPath": "harrisen-min.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "email": "ricksurya@berkeley.edu",
     "major": "Computer Science & Business Administration",
     "linkedin": "https://www.linkedin.com/in/rick-surya-575b90147",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "email": "nishijuthani@berkeley.edu",
     "major": "Bioengineering (Data Science Minor)",
     "linkedin": "https://www.linkedin.com/in/nishijuthani/",
-    "imgPath": "../../assets/headshots/nishi-juthani.jpg"
+    "imgPath": "nishi-juthani.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "email": "harimlee@berkeley.edu",
     "major": "Computer Science",
     "linkedin": "https://www.linkedin.com/in/harimleee",
-    "imgPath": "../../assets/headshots/harim-lee.jpg"
+    "imgPath": "default.png"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "email": "jocelyn.l@berkeley.edu",
     "major": "MCB",
     "linkedin": "https://www.linkedin.com/in/jocelyn-liu-420596139/",
-    "imgPath": "../../assets/headshots/jocelyn-liu.jpg"
+    "imgPath": "jocelyn-liu.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "email": "akhetrapal33@berkeley.edu",
     "major": "Public Health & Economics",
     "linkedin": "https://www.linkedin.com/in/anika-khetrapal-a867a2144",
-    "imgPath": "../../assets/headshots/anika-khetrapal.jpg"
+    "imgPath": "anika-khetrapal.jpg"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "email": "vyomthakkar@berkeley.edu",
     "major": "Bioengineering & EECS",
     "linkedin": "https://www.linkedin.com/in/vyom-thakkar-ba6204149/",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "email": "anmolseth00@berkeley.edu",
     "major": "MCB + Public Health",
     "linkedin": "https://www.linkedin.com/in/anmol-seth-192958145",
-    "imgPath": "../../assets/headshots/anmol-seth.jpg"
+    "imgPath": "anmol-seth.jpg"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "email": "snalubola@berkeley.edu",
     "major": "Bioengineering & EECS",
     "linkedin": "https://www.linkedin.com/in/swadhin-nalubola-3772a4171/",
-    "imgPath": "../../assets/headshots/swad-nalubola.jpg"
+    "imgPath": "swad-nalubola.jpg"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "email": "audrey.e.s@berkeley.edu",
     "major": "Business Administration & Data Science",
     "linkedin": "https://www.linkedin.com/in/audreyes/",
-    "imgPath": "../../assets/headshots/audrey-simandjaja.jpg"
+    "imgPath": "audrey-simandjaja.jpg"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "email": "kevin5x@berkeley.edu",
     "major": "Economics & Data Science",
     "linkedin": "https://www.linkedin.com/in/kevin-xiang-a9a2a4171/",
-    "imgPath": "../../assets/headshots/kevin-xiang.jpg"
+    "imgPath": "kevin-xiang.jpg"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "email": "cwzou@berkeley.edu",
     "major": "MCB & Computer Science",
     "linkedin": "https://www.linkedin.com/in/chriswzou",
-    "imgPath": "../../assets/headshots/chris-zou.jpg"
+    "imgPath": "chris-zou.jpg"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "email": "nian_s@berkeley.edu",
     "major": "Business Administration & Public Health",
     "linkedin": "https://www.linkedin.com/in/steven-nian/",
-    "imgPath": "../../assets/headshots/steven-nian.jpg"
+    "imgPath": "steven-nian.jpg"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "email": "brendanswu@berkeley.edu",
     "major": "Business Administration & MCB",
     "linkedin": "https://www.linkedin.com/in/brendanswu/",
-    "imgPath": "../../assets/headshots/brendan-wu.jpg"
+    "imgPath": "brendan-wu.jpg"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "email": "emily.gu@berkeley.edu",
     "major": "MCB & Bioengineering",
     "linkedin": "https://www.linkedin.com/in/emilygu-/",
-    "imgPath": "../../assets/headshots/emily-gu.jpg"
+    "imgPath": "emily-gu.jpg"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "email": "collettsimonian@berkeley.edu",
     "major": "Business Administration & Public Health",
     "linkedin": "https://www.linkedin.com/in/collett-simonian/",
-    "imgPath": "../../assets/headshots/collett-simonian.jpg"
+    "imgPath": "collett-simonian.jpg"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "email": "megan.johnston@berkeley.edu",
     "major": "Business Administration & MCB",
     "linkedin": "https://www.linkedin.com/in/megan-johnston-31bb27176/",
-    "imgPath": "../../assets/headshots/megan-johnston.jpg"
+    "imgPath": "megan-johnston.jpg"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "email": "gwynethjocelyn@berkeley.edu",
     "major": "Statistics",
     "linkedin": "https://www.linkedin.com/in/gwynethjocelyn/",
-    "imgPath": "../../assets/headshots/gwyneth-jocelyn.jpg"
+    "imgPath": "gwyneth-jocelyn.jpg"
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "email": "23jain@berkeley.edu",
     "major": "MCB and Business Administration",
     "linkedin": "https://www.linkedin.com/in/rithik-jain-782660192/",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
     "email": "fcuoco@berkeley.edu",
     "major": "Computer Science",
     "linkedin": "https://www.linkedin.com/in/frankcuocojr/",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "email": "vivekkamarshi@berkeley.edu",
     "major": "Bioengineering",
     "linkedin": "https://www.linkedin.com/in/vkamarshi",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "email": "cattang@berkeley.edu",
     "major": "Business Administration & MCB",
     "linkedin": "https://www.linkedin.com/in/catherine-tang-a27649194/",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 29,
@@ -258,7 +258,7 @@
     "email": "mihirshah@berkeley.edu",
     "major": "MCB",
     "linkedin": "https://www.linkedin.com/in/mihirsh4h/",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   },
   {
     "id": 30,
@@ -267,6 +267,6 @@
     "email": "akash.rathod@berkeley.edu",
     "major": "EECS + Business Administration (MET)",
     "linkedin": "https://www.linkedin.com/in/akash-rathod/",
-    "imgPath": "../../assets/headshots/default.png"
+    "imgPath": "default.png"
   }
 ]
