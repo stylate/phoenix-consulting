@@ -5,7 +5,7 @@ import Members from './Members.json';
 const memberGrid = {
   width: "1000px",
   display: "flex",
-  flexWrap: "wrap"
+  flexWrap: "wrap",
 }
 
 class Team extends React.Component {

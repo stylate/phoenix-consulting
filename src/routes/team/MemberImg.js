@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-// import headshot from '../../assets/headshots/anmol.jpg';
+import headshot from '../../assets/headshots/anmol.jpg';
 import '../../layout/MemberImg.css';
 
 
@@ -12,13 +12,13 @@ import '../../layout/MemberImg.css';
 
 class MemberImg extends React.Component {
   render() {
-    const headshot = this.props.obj.imgPath;
-    console.log(this.props.obj.imgPath);
+    // const headshot = this.props.obj.imgPath;
+    // console.log(this.props.obj.imgPath);
     return (
       <div>
         <div class="content">
             <div class="content-overlay"></div>
-            <img class="content-image" src={this.props.obj.imgPath} alt={this.props.obj.name}/>
+            <img class="content-image" src={headshot} alt={this.props.obj.name}/>
 
             <div class="content-details fadeIn-bottom">
               <p class="major">{this.props.obj.major}</p>
@@ -28,8 +28,10 @@ class MemberImg extends React.Component {
               </div>
             </div>
         </div>
+        <div class="description">
           <h3 class="name">{this.props.obj.name}</h3>
           <p class="position">{this.props.obj.position}</p>
+        </div>
       </div>
     )
   }

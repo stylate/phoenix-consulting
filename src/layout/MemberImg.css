@@ -1,7 +1,8 @@
 .content {
   position: relative;
   width: 90%;
-  max-width: 200px;
+  max-width: 250px;
+  max-height: 250px;
   margin: auto;
   overflow: hidden;
 }
@@ -9,7 +10,7 @@
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -52,12 +53,24 @@
   opacity: 1;
 }
 
+.major {
+  padding: 2em;
+}
+
 .content-details h3{
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
   text-transform: uppercase;
+}
+
+.description {
+  margin: .5em 0em 1em 1.25em;
+}
+
+.name, .position {
+  margin: .2em;
 }
 
 .content-details p{
@@ -81,4 +94,6 @@ a:hover {
 .social-icons {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding: 0em 3em;
 }
