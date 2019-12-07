@@ -9,14 +9,17 @@ const BlockTexts = (props) => {
   return (
     <div className={classNames(props.className, "BlockTexts")}>
       <div className="BlockTexts__background"/>
-      {texts.map((text) => (
+      {texts.map((text) => {
+        return (
         <SingleBlockText
           className="BlockTexts__block"
           header={text.header}
           body={text.body}
           image={text.image}
         />
-      ))}
+        );
+      })
+    }
     </div>
   )
 }
