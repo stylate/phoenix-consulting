@@ -15,15 +15,26 @@
 
 .Home-visual {
 	position: relative;
-	/*bottom: 140px;*/
 	top: 178px;
 }
 
-.Home-video-overlay {
+.Home-video-container {
 	width: 75vw;
 	height: 65vh;
-	/* background-color: black; */
-	/* opacity: 0.7; */
+	position: relative;
+}
+
+.Home-video {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.Home-video-overlay {
+	background: black;
+	opacity: 0.3;
 }
 
 .Home-info {

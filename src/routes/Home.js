@@ -1,7 +1,7 @@
 import React from 'react';
 import '../layout/Home.css';
 import phoenix from '../assets/PHOENIX.svg';
-import phoenixgif from '../assets/phoenixgif.gif';
+import YoutubeBackground from 'react-youtube-background';
 
 function Home() {
 
@@ -17,8 +17,13 @@ function Home() {
       <div className="Home">
         <div className="Home-title"><img src={phoenix}/></div>
         <div className="Home-visual">
-          <img className="Home-video-overlay" src={phoenixgif} alt="gif"/>
-          
+          <div className="Home-video-container">
+            <YoutubeBackground
+              videoId="Tahb2tfW2Js"
+              className="Home-video"
+            />
+            <div className="Home-video Home-video-overlay"/>
+          </div>
           <div className="Home-info">
             data-driven solutions for biotech, healthcare and pharmaceutical companies
           </div>
