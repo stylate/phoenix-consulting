@@ -6,6 +6,7 @@ const memberGrid = {
   width: "1000px",
   display: "flex",
   flexWrap: "wrap",
+  marginLeft: "40px"
 }
 
 class Team extends React.Component {
@@ -23,7 +24,7 @@ class Team extends React.Component {
       );
     return (
       <div>
-      <h1>Team</h1>
+      <header>TEAM</header>
       <div style={memberGrid}>
         {memberMap}
       </div>

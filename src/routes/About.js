@@ -3,8 +3,9 @@ import BlockTexts from '../components/BlockTexts';
 import '../layout/About.css'
 
 // import images
+import Beghou from '../assets/beghou.png';
+import Canopy from '../assets/extreme-canopy.png';
 import PhoenixLogo from '../assets/phoenixlogo.png';
-
 
 const About = () => {
     const aboutText = [
@@ -19,6 +20,23 @@ const About = () => {
         {
             "header": "Impact",
             "body": ["Each semester, Phoenix takes on four carefully chosen projects, with scopes ranging from digital strategy to pharmaceutical viability analysis. In recent years, we have been fortunate to have far more business than we can afford to take on. As a result, we work not only on those projects we feel will be most meaningful for our organization, but also on where we feel we will be able to do the most good. Please see below for a selected list of past client engagements."],
+        }
+    ];
+    const sponsorText = [
+        {
+            "header": "Beghou Consulting",
+            "body": ["Beghou Consulting is a data-driven life science consulting firm that specializes in sales force design, forecasting, advanced analytics, and marketing strategy. They are a rapidly growing boutique firm which, for the past 25 years, has offered expert insights into the pharmaceutical and biotech industries. In addition to consulting services, Beghou couples their tailored solutions with custom data analytics platforms in order to foster long term client partnerships."],
+            "image": {Beghou}
+        },
+        {
+            "header": "ZS Associates",
+            "body": ["ZS Associates is a premier management consulting firm with a primary focus on biotech and healthcare. They offer end-to-end sales and marketing solutions, business operational transformation, and pharmaceutical pipeline launch strategy, among other solutions. Three native software products addressing marketing, strategy implementation, and data analytics are offered to clients. Since 1983, they have served the largest names in biotech and pharmaceuticals, including Roche, Pfizer, Boehringer Ingelheim, and Abbvie."],
+            "image": {Canopy}
+        },
+        {
+            "header": "Extreme Canopy",
+            "body": ["Extreme Canopy, a leader in their industry, is committed to delivering premium products at low, affordable prices to help support their community. Extreme Canopy has helped us elevate our brand to new heights. Their unparalleled customer support consistently helped us deliver a perfect product. We are grateful for their continued support and partnership. Phoenix Consulting Group exclusively uses Extreme Canopy’s canopy tents for all public events and recruitment cycles."],
+            "image:": {PhoenixLogo}
         }
     ];
     return (
